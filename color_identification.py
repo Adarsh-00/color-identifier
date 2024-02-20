@@ -15,7 +15,6 @@ def indentify_color(event, x, y, flag, param) :
         cv2.imshow("color", colorImg)
 
 
-
 img = cv2.imread("colors.jpg") #put image name here
 cv2.imshow("image", img)
 cv2.setMouseCallback("image", indentify_color)
